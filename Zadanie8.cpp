@@ -1,26 +1,3 @@
-/*
-Zadanie 8 – z funkcjami
-1. Tablicę A[w][k] (w, k - stałe) wypełnić liczbami losowymi rzeczywistymi z przedziału
-<-X, X>, zaś tablicę B[w][k] - z przedziału <D, G> (X, D, G – stałe).
-2. Tablicę A wydrukować wierszami z dokładnością 1 miejsca po kropce, tablicę B – z
-dokładnością 2 miejsc.
-3. W tablicy A odwrócić kolejność elementów (czyli zamienić pierwszy z ostatnim, drugi z
-przedostatnim itd.) w wierszach zaczynających się liczbą ujemną, zaś w tablicy B zrobić
-to samo w wierszach zaczynających liczbą mniejszą od wczytanej.
-4. Ponownie wydrukować obie tablice.
-5. Wydrukować informację, w której tablicy odwrócono więcej wierszy (a może tyle samo).
-W programie wykorzystać:
-• funkcję, która jakąś tablicę wypełnia liczbami losowymi rzeczywistymi zawartymi między
-dwiema jakimiś wartościami
-• funkcję, która jakąś tablicę podanego typu drukuje wierszami z jakąś precyzją (liczbą
-miejsc po kropce)
-• funkcję, która dla jakiejś tablicy podanego typu odwraca kolejność elementów w tych
-wierszach, które zaczynają się liczbą mniejszą od jakiejś wartości i zwraca liczbę wierszy,
-w których dokonano takiego odwrócenia.
-Wskazówka: Liczbę losową rzeczywistą w przedziale <a, b> losujemy za pomocą wyrażenia
-a+(b-a)*rand( )/double(RAND_MAX), gdzie RAND_MAX typu int jest stałą z biblioteki cstdlib.
-*/
-
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
