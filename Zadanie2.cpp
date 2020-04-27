@@ -1,15 +1,3 @@
-/*
-Zadanie 2 - z pętlą do-while
-Napisać program, który wczytuje liczby całkowite aż do powtórnego wczytania liczby takiej
-jak pierwsza lub druga wczytana liczba. Wydrukować następujące informacje (biorąc pod
-uwagę wszystkie wczytane liczby):
-• najmniejszą liczbę tego ciągu
-• największą ujemną liczbę tego ciągu
-• ile razy dwie jednakowe liczby wczytano obok siebie (jedna po drugiej).
-UWAGA: Program napisać bez użycia tablic. Nie należy nigdzie zapisywać całego wczytanego
-ciągu.
-*/
-
 #include <iostream>
  
 using namespace std;
