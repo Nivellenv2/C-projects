@@ -1,21 +1,3 @@
-/*
-Zadanie 6
-a. Z pliku o nazwie podanej przez użytkownika wczytać wierszami dane rzeczywiste
-(mogą być ujemne, mogą być bez kropki) do tablicy A[w][k] (w, k - stałe). Jeśli danych w
-pliku będzie za mało, wolne miejsca powinny by ć wypełnione wartością stałą X.
-b. Wydrukować tablicę wierszami w formacie fixed ze stałą liczbą miejsc po kropce
-(ustawioną za pomocą setprecision) i stałą szerokością kolumn (ustawioną za
-pomocą setw).
-c. Wydrukować kolejne elementy na obwodzie tablicy, poruszając się zgodnie ze
-wskazówkami zegara, a na końcu wydrukować maksymalną wartość z tych
-wszystkich elementów obwodu.
-d. Wyzerować wiersze, w których suma elementów jest większa od tej wartości
-maksymalnej.
-e. Na koniec całą tablicę zapisać wierszami (w formacie jak w p. b) do pliku o nazwie
-"nowa.txt".
-Uwaga: należy sygnalizować brak pliku z danymi o podanej nazwie.
-*/
-
 #include <iostream>
 #include <iomanip>
 #include <fstream>
