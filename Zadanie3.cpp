@@ -1,21 +1,3 @@
-/*Zadanie 3
-Napisać program, który:
-a. wczytuje liczbę całkowitą N, wymuszając, by N było dodatnie i mniejsze od 10 (pętlą do-while)
-b. następnie wczytuje N napisów (pętlą for)
-c. potem jeszcze wczytuje ciąg napisów aż do wczytania napisu END (pętlą while)
-d. po zakończeniu wczytywania napisów (krok b i c) drukuje obliczone wartości (końcowego napisu
-END nie należy brać pod uwagę):
-- ile łącznie było wczytanych napisów, w których pierwszy i ostatni znak są dużymi literami oraz
-ile takich, w których pierwszy i ostatni znak są cyframi
-- jaka była średnia długość napisów krótszych niż d znaków (d – stała).
-Uwaga: Zadanie rozwiązać bez użycia tablic.
-Wskazówki
-1. Napisy należy wczytywać - jako zmienne typu string - instrukcją cin (do pierwszego
-niewidocznego znaku, np. spacji lub Entera)
-2. Jeśli napis jest zmienną typu string, to jego długość (liczba znaków) jest równa
-n= napis.size( ), zaś ostatni znak to napis[n-1].
-3. Duże litery to znaki zawarte między ‘A’ i ‘Z’ , cyfry jako znaki zawarte są między ‘0’ i ‘9’. 
-*/
 #include <iostream>
 #include <cstdlib>
 #include <string>
