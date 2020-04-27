@@ -1,16 +1,3 @@
-/*Zadanie 5
-• Tablicę A[n][n] (n - stała) wypełnić liczbami losowymi całkowitymi z przedziału <D, G>
-(D, G- stałe).
-• Wydrukować tablicę wierszami ze stałą szerokością 5 miejsc, ustawioną za pomocą
-setw.
-• Dla każdej kolumny wydrukować (pod tą kolumną), ile jest w niej liczb podzielnych przez M
-(M- stała).
-• Zamienić miejscami największy element głównej przekątnej z najmniejszym elementem z
-trzech ostatnich wierszy tablicy.
-• Ponownie wydrukować tablicę.
-Wskazówka: należy przeczytać uwagę o generowaniu liczb losowych, zamieszczoną w rozwiązaniu
-zad. 4 do lekcji 3 (obowiązuje aktualna wersja online-HTML podręcznika).
-*/
 #include <iostream>
 #include <cstdlib>
 #include <iomanip>
