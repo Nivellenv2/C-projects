@@ -1,15 +1,3 @@
-/*Zadanie 7 – z rekordami
-Tablicę A[n][n](n - stała) wypełnić rekordami opisującymi dane o studentach, o polach (imie,
-ocena) – dane należy wczytywać z pliku o nazwie podanej przez użytkownika. Następnie:
-1. wydrukować w czytelny sposób zawartość tablicy A.
-2. obliczyć i wydrukować średnią ocenę spośród ocen pozytywnych (>=3.0) osób o
-imionach kończących się literą ‘a’ lub ‘k’, wpisanych pod główną przekątną tablicy.
-3. wydrukować informację, ile jest kolumn w tej tablicy, w których ocena średnia ze
-wszystkich ocen w danej kolumnie przekracza średnią obliczoną w p. 2.
-Uwaga: należy zawsze sygnalizować brak pliku o podanej nazwie (czyli brak możliwości
-otwarcia pliku).
-*/
-
 #include <iostream>
 #include <fstream>
 #include <sstream>
