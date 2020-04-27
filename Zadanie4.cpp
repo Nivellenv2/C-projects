@@ -1,16 +1,3 @@
-*Zadanie 4
-a) Wczytać ciąg n liczb całkowitych (n - stała) - niekoniecznie dodatnich. Wydrukować liczbę
-największą i najmniejszą z wczytanych oraz różnicę między każdą kolejną liczbą tego ciągu,
-a średnią liczb tego ciągu.
-Wskazówka: to wymaga zastosowania tablicy jednowymiarowej przechowującej wczytane
-liczby.
-b) Tablicę wydrukować, przesunąć cyklicznie o 1 miejsce w lewo, i wydrukować ponownie.
-c) Następnie w tablicy tej zamienić miejscami sąsiednie elementy w kolejnych parach 0-1, 1-2,
-... itd, jeśli pierwszy element z tej pary jest większy od drugiego.
-Wskazówka: w obu powyższych krokach należy zastosować zmienną pomocniczą jako
-tymczasowy schowek.
-d) Wydrukować tablicę po tej zmianie
-*/
 #include <iostream>
 #include <cstdlib>
 
